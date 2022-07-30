@@ -6,3 +6,10 @@
 #     https: false
 #   )
 # end
+
+ActiveSupport::Reloader.to_prepare do
+    ApplicationController.renderer.defaults.merge!(
+      http_host: 'http://localhost:3000',
+      https: false
+    )
+  end
