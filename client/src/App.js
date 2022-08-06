@@ -64,7 +64,10 @@ function App() {
               <Route path="/entertainment" element={<Entertainment />} />
               <Route path="/friend" element={<Friend />} />
               <Route path="/gethere" element={<GetHere />} />
-              <Route path="/rsvp" element={<Rsvp />} />
+              <Route
+                path="/rsvp"
+                element={<Rsvp currentUser={currentUser} />}
+              />
             </Routes>
           </div>
         </div>

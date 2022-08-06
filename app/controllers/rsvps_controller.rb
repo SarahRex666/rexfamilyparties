@@ -1,4 +1,4 @@
-class RvspsController < ApplicationController
+class RsvpsController < ApplicationController
     skip_before_action :authenticate_user
     def index
         render json: Rsvp.all
@@ -22,7 +22,7 @@ class RvspsController < ApplicationController
 
     private
 
-    def party_params
-        params.permit(:id, :user_id, :party_id, :attending)
+    def rsvp_params
+        params.permit(:id, :user_id, :kids, :attending, :dietary_restriction, :total_guests)
     end
 end
