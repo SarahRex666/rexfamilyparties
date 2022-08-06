@@ -20,22 +20,30 @@ function NavBar({ currentUser }) {
               <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/">
+              <Nav.Link as={Link} to="/entertainment">
+                Entertainment
+              </Nav.Link>
+              <Nav.Link as={Link} to="/about">
                 About
               </Nav.Link>
-              <Nav.Link as={Link} to="/">
-                Teachers
+              <Nav.Link as={Link} to="/food">
+                Food/Drink
               </Nav.Link>
-
-              <Nav.Link as={Link} to="/">
-                Contact Us
+              <Nav.Link as={Link} to="/code">
+                Dress Code
               </Nav.Link>
-              <Nav.Link as={Link} to="/">
-                Profile
+              <Nav.Link as={Link} to="/friend">
+                Bring a friend/Make a friend
+              </Nav.Link>
+              <Nav.Link as={Link} to="/gethere">
+                Get Here
+              </Nav.Link>
+              <Nav.Link as={Link} to="/rsvp">
+                RSVP
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Nav.Link as={Link} to="/">
+          <Nav.Link as={Link} to="/logout">
             Logout
           </Nav.Link>
         </Container>

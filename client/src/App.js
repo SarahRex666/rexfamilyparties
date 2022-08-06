@@ -14,6 +14,8 @@ import Entertainment from "./Entertainment";
 import Friend from "./Friend";
 import Signup from "./Signup";
 import GetHere from "./GetHere";
+import Rsvp from "./Rsvp";
+import Logout from "./Logout";
 
 function App() {
   const [currentUser, setCurrentUser] = useState([]);
@@ -50,11 +52,19 @@ function App() {
               <Route path="/food" element={<Food />} />
               <Route path="/code" element={<DressCode />} />
               <Route path="/about" element={<About />} />
-              <Route path="/SignIn" element={<SignIn />} />
+              <Route
+                path="/logout"
+                element={<Logout setCurrentUser={setCurrentUser} />}
+              />
+              <Route
+                path="/SignIn"
+                element={<SignIn setCurrentUser={setCurrentUser} />}
+              />
               <Route path="/signup" element={<Signup />} />
               <Route path="/entertainment" element={<Entertainment />} />
               <Route path="/friend" element={<Friend />} />
               <Route path="/gethere" element={<GetHere />} />
+              <Route path="/rsvp" element={<Rsvp />} />
             </Routes>
           </div>
         </div>

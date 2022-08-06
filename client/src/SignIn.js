@@ -3,7 +3,7 @@ import { Navigate, useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
-function SignIn() {
+function SignIn({ setCurrentUser }) {
   const [formState, setFormState] = useState({
     username: "",
     password: "",
@@ -28,7 +28,7 @@ function SignIn() {
     })
       .then((r) => r.json())
       .then((newUser) => {
-        if (newUser.id) console.log(newUser);
+        if (newUser && newUser.id) setCurrentUser(newUser);
       })
       .then(navigate("/"));
   };
