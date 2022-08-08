@@ -10,7 +10,7 @@ class RsvpsController < ApplicationController
     end
 
     def create
-        rsvp = Rsvp.create!(rsvp_params)
+        rsvp = Rsvp.create(rsvp_params)
         render json: rsvp, status: :created
     end
 
