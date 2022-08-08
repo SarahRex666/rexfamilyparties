@@ -41,7 +41,7 @@ function App() {
           </nav>
           <br></br>
           <h2>
-            Shrekfest Block Party Takeover for Brianas Redo 30th Birthday Party
+            Shrekfest Block Party Takeover for Briana's Redo 30th Birthday Party
           </h2>
           <div>
             <Routes>
