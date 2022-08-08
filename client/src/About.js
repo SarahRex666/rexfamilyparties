@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div class="container w-50 p-5">
+    <div class="container">
       <h5>Folks with kiddos</h5>
       <p>
         You are always more than welcome to bring the family! There will be so

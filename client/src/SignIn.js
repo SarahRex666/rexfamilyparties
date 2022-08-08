@@ -34,7 +34,7 @@ function SignIn({ setCurrentUser }) {
   };
 
   return (
-    <div class="container w-25 p-5">
+    <div class="container w-50">
       <Form onSubmit={handleSubmit}>
         <Form.Group>
           <Form.Label>User Name</Form.Label>

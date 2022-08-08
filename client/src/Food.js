@@ -2,7 +2,7 @@ import React from "react";
 
 function Food() {
   return (
-    <div class="container w-50 p-5">
+    <div class="container">
       <h4>Food:</h4>
       <p>
         Vegan, omni, and gluten-free options will be available. Please let us

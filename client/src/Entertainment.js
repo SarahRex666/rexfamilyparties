@@ -2,7 +2,7 @@ import React from "react";
 
 function Entertainment() {
   return (
-    <div class="container w-50 p-5">
+    <div class="container">
       <h5>Entertainment:</h5>
       <ul>
         <li>-Face painters</li>
