@@ -2,7 +2,7 @@ import React from "react";
 
 function Friend() {
   return (
-    <div>
+    <div class="container">
       <h3>Bring a friend!</h3>
       <p>
         We would absolutely love for everyone to bring a friend. This is

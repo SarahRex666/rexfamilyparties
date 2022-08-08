@@ -11,7 +11,7 @@ function NavBar({ currentUser }) {
 
   if (currentUser && currentUser.id) {
     return (
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="primary" expand="lg">
         <Container>
           <Navbar.Brand href="/">Shrekfest</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -51,7 +51,7 @@ function NavBar({ currentUser }) {
     );
   }
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="primary" expand="lg">
       <Container>
         <Navbar.Brand href="/">Shrekfest 2022</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

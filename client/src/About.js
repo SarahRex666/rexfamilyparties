@@ -2,18 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div>
-      <p>
-        It’s officially happening! Briana turned 30 last September 13th. Being
-        the month before the wedding made celebrating in a big way ultimately
-        impossible. But now, one year later, we’ll be celebrating at her
-        official Shrek themed redo 30th birthday party. For those precovid
-        friends of hers you’ll remember the block party take over parties. For
-        some newer folks..let us explain. Every year our block has a block party
-        that is always within a week of her birthday. Hence the block party
-        birthday party take over.
-      </p>
-
+    <div class="container">
       <h5>Folks with kiddos</h5>
       <p>
         You are always more than welcome to bring the family! There will be so

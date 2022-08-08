@@ -49,6 +49,9 @@ function Rsvp(currentUser) {
           </Form.Select>
           <br></br>
           <h5>Sick! Any dietary restrictions??</h5>
+          <p>
+            Even if you think we know your dietary needs, please add them here!
+          </p>
           <Form.Control
             as="textarea"
             rows={3}

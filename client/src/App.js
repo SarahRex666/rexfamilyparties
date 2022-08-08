@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "./auth";
 import logo from "./logo.svg";
-import "bootswatch/dist/cyborg/bootstrap.min.css";
 import "./App.css";
 import Home from "./Home.js";
 import NavBar from "./NavBar";
@@ -42,6 +41,7 @@ function App() {
           <nav>
             <NavBar currentUser={currentUser} />
           </nav>
+          <br></br>
           <h2>
             Shrekfest Block Party Takeover for Brianas Redo 30th Birthday Party
           </h2>
