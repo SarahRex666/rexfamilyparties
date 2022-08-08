@@ -15,8 +15,8 @@ function About() {
       </p>
       <h5>Folks with doggos</h5>
       <p>
-        Unfortunately due to the scale of low large this block party is, we ask
-        that you don't bring your pup this time around. This is out of
+        Unfortunately due to the scale of how large this block party is, we ask
+        that you don't bring your pup this time 'round. This is out of
         protection for both doggos (loud noises and stimulation) and the kids
         running around. Thank you for understanding, please don't hesitate to
         contact us to discuss!

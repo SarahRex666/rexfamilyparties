@@ -6,7 +6,7 @@ function Friend() {
       <h3>Bring a friend!</h3>
       <p>
         We would absolutely love for everyone to bring a friend. This is
-        definitely a, "more the merrier" situation. All we ask is that you
+        definitely a, "more the merrier", situation. All we ask is that you
         include them in your RSVP so we have a better idea of the amount of
         food, drinks, and chairs needed.
       </p>
@@ -15,6 +15,8 @@ function Friend() {
         It's been an isolating few years. We can all use a way to make some new
         friends and see some familiar faces.
       </p>
+      <br></br>
+      <img src="https://media.giphy.com/media/Te1x8Kmnq63Vm/giphy.gif"></img>
     </div>
   );
 }

@@ -118,9 +118,6 @@ function NavBar({ currentUser }) {
             <Nav.Link as={Link} to="/friend">
               Bring a friend/Make a friend
             </Nav.Link>
-            <Nav.Link as={Link} to="/gethere">
-              Get Here
-            </Nav.Link>
             <NavDropdown title="Sign In/Sign Up" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/signin">
                 Sign In
