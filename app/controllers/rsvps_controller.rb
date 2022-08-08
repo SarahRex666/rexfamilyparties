@@ -23,6 +23,6 @@ class RsvpsController < ApplicationController
     private
 
     def rsvp_params
-        params.permit(:id, :user_id, :attending, :total_guests, :dietary_restriction, :kids)
+        params.permit(:id, :user_id, :attending, :total_guests, :kids, :dietary_restriction)
     end
 end
