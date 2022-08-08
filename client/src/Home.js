@@ -18,6 +18,11 @@ function Home() {
         Instead of celebrating a block party like normal people, we're doing
         this. Hence the block party birthday party takeover.
       </p>
+      <a href="https://account.venmo.com/u/rexfamilyparties">
+        Parties are expensive.
+      </a>
+      <br></br>
+      <br></br>
       <img src="https://media.giphy.com/media/jY28p9JxDNViU/giphy.gif" />
     </div>
   );
