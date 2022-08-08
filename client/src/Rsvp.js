@@ -31,7 +31,7 @@ function Rsvp(currentUser) {
 
   if (formState.attending === "true") {
     return (
-      <div class="container w-25 p-5">
+      <div class="container w-50">
         <h1>RVSP</h1>
         <h5>Ok, so we need a couple things:</h5>
         <br></br>
