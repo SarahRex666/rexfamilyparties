@@ -11,7 +11,7 @@ class RsvpsController < ApplicationController
 
     def create
         rsvp = Rsvp.create(rsvp_params)
-        render json: rsvp, status: :created
+        status: :created
     end
 
     def destroy
