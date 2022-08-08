@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div class="container w-50 p-5">
+    <div class="container">
       <h3>Saturday, September 10th</h3>
       <h5>2pm - ???</h5>
       <p>
