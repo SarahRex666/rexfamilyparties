@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div class="container">
+    <div class="container w-50 p-5">
       <h5>Folks with kiddos</h5>
       <p>
         You are always more than welcome to bring the family! There will be so
@@ -13,6 +13,7 @@ function About() {
         all! Outside of the actual block party activities, we will also have kid
         friendly activities and all drinks are virgin.{" "}
       </p>
+      <br></br>
       <h5>Folks with doggos</h5>
       <p>
         Unfortunately due to the scale of how large this block party is, we ask

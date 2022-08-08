@@ -34,36 +34,38 @@ function SignIn({ setCurrentUser }) {
   };
 
   return (
-    <Form class="container" onSubmit={handleSubmit}>
-      <Form.Group>
-        <Form.Label>User Name</Form.Label>
-        <Form.Control
-          type="text"
-          id="username"
-          placeholder="User Name"
-          value={formState.username}
-          onChange={handleChange}
-        />
+    <div class="container w-25 p-5">
+      <Form onSubmit={handleSubmit}>
+        <Form.Group>
+          <Form.Label>User Name</Form.Label>
+          <Form.Control
+            type="text"
+            id="username"
+            placeholder="User Name"
+            value={formState.username}
+            onChange={handleChange}
+          />
+          <br></br>
+          <Form.Label>Password</Form.Label>
+          <Form.Control
+            type="password"
+            id="password"
+            placeholder="Password"
+            value={formState.password}
+            onChange={handleChange}
+          />
+        </Form.Group>
         <br></br>
-        <Form.Label>Password</Form.Label>
-        <Form.Control
-          type="password"
-          id="password"
-          placeholder="Password"
-          value={formState.password}
-          onChange={handleChange}
-        />
-      </Form.Group>
-      <br></br>
-      <Button
-        variant="outline-secondary"
-        type="submit"
-        id="submit"
-        value="Submit"
-      >
-        Submit
-      </Button>
-    </Form>
+        <Button
+          variant="outline-primary"
+          type="submit"
+          id="submit"
+          value="Submit"
+        >
+          Submit
+        </Button>
+      </Form>
+    </div>
   );
 }
 

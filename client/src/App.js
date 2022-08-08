@@ -43,7 +43,6 @@ function App() {
           <h2>
             Shrekfest Block Party Takeover for Brianas Redo 30th Birthday Party
           </h2>
-          <br></br>
           <div>
             <Routes>
               <Route path="/" element={<Home />} />

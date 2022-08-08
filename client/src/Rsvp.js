@@ -31,12 +31,12 @@ function Rsvp(currentUser) {
 
   if (formState.attending === "true") {
     return (
-      <div class="container w-50">
+      <div class="container w-25 p-5">
         <h1>RVSP</h1>
         <h5>Ok, so we need a couple things:</h5>
         <br></br>
         <br></br>
-        <Form class="container w-50">
+        <Form>
           <h5>Ok, first, are you coming to this thing?</h5>
           <Form.Select
             onChange={(e) => handleChange(e)}
@@ -83,12 +83,12 @@ function Rsvp(currentUser) {
     );
   }
   return (
-    <div class="container w-50">
+    <div class="container w-25 p-5">
       <h1>RVSP</h1>
       <h5>Ok, so we need a couple things:</h5>
       <br></br>
       <br></br>
-      <Form class="container w-50">
+      <Form>
         <h5>Ok, first, are you coming to this thing?</h5>
         <Form.Select
           onChange={(e) => handleChange(e)}

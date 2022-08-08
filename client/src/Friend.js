@@ -2,15 +2,16 @@ import React from "react";
 
 function Friend() {
   return (
-    <div class="container">
-      <h3>Bring a friend!</h3>
+    <div class="container w-50 p-5">
+      <h5>Bring a friend!</h5>
       <p>
         We would absolutely love for everyone to bring a friend. This is
         definitely a, "more the merrier", situation. All we ask is that you
         include them in your RSVP so we have a better idea of the amount of
         food, drinks, and chairs needed.
       </p>
-      <h3>Make a friend!</h3>
+      <br></br>
+      <h5>Make a friend!</h5>
       <p>
         It's been an isolating few years. We can all use a way to make some new
         friends and see some familiar faces.
