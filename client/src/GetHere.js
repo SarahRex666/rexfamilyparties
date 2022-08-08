@@ -2,7 +2,7 @@ import React from "react";
 
 function GetHere() {
   return (
-    <div class="container">
+    <div class="container p-5">
       <h2>Directions:</h2>
       <h5>Ways to get here:</h5>
       <p>

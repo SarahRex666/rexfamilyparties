@@ -2,7 +2,7 @@ import React from "react";
 
 function DressCode() {
   return (
-    <div class="container">
+    <div class="container p-5">
       <h4>Dress Code:</h4>
       <p>
         Come as your favorite Shrek character. The Shrek Universe is one that is

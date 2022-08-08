@@ -13,7 +13,7 @@ function Admin() {
   }, []);
 
   return (
-    <div class="container">
+    <div class="container p-5">
       {users.map((user) => (
         <div>
           <h5>

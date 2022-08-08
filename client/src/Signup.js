@@ -36,7 +36,7 @@ function Signup() {
       .then(navigate("/"));
   };
   return (
-    <div class="container w-50">
+    <div class="container w-50 p-5">
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mt-5">
           <Form.Label>First Name</Form.Label>
