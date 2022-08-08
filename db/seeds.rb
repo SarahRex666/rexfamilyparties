@@ -18,4 +18,3 @@ puts "Seeding partys..."
 party1 = Party.create(name: "Shrekfest", description: "A celebration of all things Shrek")
 
 puts "Seeding RSVPs..."
-rsvp1 = Rsvp.create(user_id: user1.id, attending: true, total_guests: 1, kids: false, dietary_restriction: "Vegitarian")
