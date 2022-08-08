@@ -8,7 +8,50 @@ import React, { useState, useEffect } from "react";
 
 function NavBar({ currentUser }) {
   const [user, setUser] = useState([]);
-
+  if (currentUser && currentUser.admin) {
+    return (
+      <Navbar bg="primary" expand="lg">
+        <Container>
+          <Navbar.Brand href="/">Shrekfest</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link as={Link} to="/">
+                Home
+              </Nav.Link>
+              <Nav.Link as={Link} to="/entertainment">
+                Entertainment
+              </Nav.Link>
+              <Nav.Link as={Link} to="/about">
+                About
+              </Nav.Link>
+              <Nav.Link as={Link} to="/food">
+                Food/Drink
+              </Nav.Link>
+              <Nav.Link as={Link} to="/code">
+                Dress Code
+              </Nav.Link>
+              <Nav.Link as={Link} to="/friend">
+                Bring a friend/Make a friend
+              </Nav.Link>
+              <Nav.Link as={Link} to="/gethere">
+                Get Here
+              </Nav.Link>
+              <Nav.Link as={Link} to="/rsvp">
+                RSVP
+              </Nav.Link>
+              <Nav.Link as={Link} to="/admin">
+                Admin
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+          <Nav.Link as={Link} to="/logout">
+            Logout
+          </Nav.Link>
+        </Container>
+      </Navbar>
+    );
+  }
   if (currentUser && currentUser.id) {
     return (
       <Navbar bg="primary" expand="lg">

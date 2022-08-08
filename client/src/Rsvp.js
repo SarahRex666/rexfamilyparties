@@ -3,7 +3,6 @@ import Form from "react-bootstrap/Form";
 import { Button } from "react-bootstrap";
 
 function Rsvp(currentUser) {
-  const [coming, setcoming] = useState(false);
   const [formState, setFormState] = useState({
     user_id: currentUser.currentUser.id,
     attending: false,
@@ -29,7 +28,7 @@ function Rsvp(currentUser) {
       .then((r) => r.json())
       .then((r) => console.log(r));
   }
-  console.log(formState);
+
   if (formState.attending === "true") {
     return (
       <div class="container w-50">
